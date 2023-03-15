@@ -1,0 +1,72 @@
+body{
+    padding: 20px 190px 0 190px;
+    background-color: #F7F8F9;
+}
+
+.text{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text h1{
+    color: rgb(0, 0, 94);
+}
+
+.inputs{
+    width: 100%;
+    margin-left: 210px;
+    position: relative;
+}
+
+
+input{
+    /* width: 350px;
+    height: 50px; */
+    width: 50%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 5px;
+    padding-left: 20px;
+    border: none;
+    background-color: #E4E3E3;
+}
+
+input:focus{
+    outline: none;
+}
+
+.button{
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 80px;
+}
+
+.button button{
+    background-color: red;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.button button:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+
+
+.sign-up{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sign-up a{
+    color: gray;
+    font-size: 20px;
+}
+
+.sign-up a:hover{
+    color: red;
+}
